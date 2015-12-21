@@ -7,7 +7,7 @@ Required complexity was O(n).Right now this program is using Set So time complex
 // Try to implement HashSet in place of a Set which will internally use HashMap.
 */
 
-var SET = require('../Javascript-and-Data-Structure/DataStructure/Set'); 
+var SET = require('../Javascript-and-Data-Structure/DataStructure/HashSet'); 
 
 function longestConsecutive(array){
 	if(array.length==0){
@@ -21,7 +21,7 @@ function longestConsecutive(array){
 		set.add(array[i]);
 	}
 	//console.log(array);
-	//console.log(set.toString());
+	//console.log(set.display());
 	
 	var max = 1;
 
